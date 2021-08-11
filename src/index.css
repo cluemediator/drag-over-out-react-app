@@ -1,0 +1,31 @@
+body {
+  margin: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.box-container {
+  position: relative;
+  margin-top: 10px;
+}
+.box {
+  border: 1px solid #999;
+  height: 200px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.drop-box {
+  background-color: #e2e6a1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #999;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
